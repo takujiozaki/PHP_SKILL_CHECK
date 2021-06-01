@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP SKILL CHECK</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1>一行掲示板</h1>
+        <div class="form-inline mb-2">
+            <label for="name">名前:</label>
+            <input type="text" name="name" id="name" class="form-control">
+            <label for="content">内容:</label>
+            <input type="text" name="content" id="content" class="form-control">
+            <button type="submit" class="btn btn-primary ml-2">投稿</button>
+        </div>
+        <table class="table">
+            <tr>
+                <th>日時</th>
+                <th>名前</th>
+                <th>内容</th>
+            </tr>
+            <tr>
+                <td>2021-06-02 19:25:00</td>
+                <td>尾崎</td>
+                <td>PHPプログラムとMySQLのdumpファイルを提出してください。</td>
+            </tr>
+            <tr>
+                <td>2021-06-02 19:00:00</td>
+                <td>尾崎</td>
+                <td>正解、不正解を問う目的ではありません。課題の中でモテるスキルを発揮してください。</td>
+            </tr>
+            <tr>
+                <td>2021-06-02 18:00:00</td>
+                <td>尾崎</td>
+                <td>投稿は新しいものから上に表示します。</td>
+            </tr>
+            <tr>
+                <td>2021-06-02 17:30:00</td>
+                <td>尾崎</td>
+                <td>入力制限を満たさない場合は適切にエラー表示を行ってください。</td>
+            </tr>
+            <tr>
+                <td>2021-06-02 17:00:00</td>
+                <td>尾崎</td>
+                <td>名前、内容ともに必須項目とし、名前は10文字、内容は100文字の制限をつけてください。</td>
+            </tr>
+            <tr>
+                <td>2021-06-02 16:30:00</td>
+                <td>尾崎</td>
+                <td>DBはMySQLで制作してください。テーブルも仕様に合わせて設計してください。</td>
+            </tr>
+            <tr>
+                <td>2021-06-02 16:00:00</td>
+                <td>尾崎</td>
+                <td>名前、内容を入力すると一行追加されます。日時は投稿時間から自動で取得します。</td>
+            </tr>
+            <tr>
+                <td>2021-06-01 18:00:00</td>
+                <td>尾崎</td>
+                <td>個人レッスンの前に現在のスキルを測るテストを行います</td>
+            </tr>
+        </table>
+    </div> 
+</body>
+</html>
